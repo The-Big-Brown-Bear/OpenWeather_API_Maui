@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalProject_5.Curent_Weather_Page"
+             Title="Curent Wether"
+             BackgroundColor="AliceBlue">
+    
+    <VerticalStackLayout
+        x:Name="StackLayout"
+        BackgroundColor="DarkOrchid">
+        <Label 
+            x:Name="LblCity"
+            Text="City..."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="LblCurTem"
+            Text="Curent Temp"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="LblHighTemp"
+            Text="High Temp"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="LblLowTemp"
+            Text="Low Temp"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="Lblpressuer"
+            Text="atmosphiric pressuer"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="Lblhumidity"
+            Text="humidity:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="LblWindSpeed"
+            Text="humidity:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="LblWindDeg"
+            Text="humidity:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="LblSunRise"
+            Text="humidity:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            x:Name="LblSunSet"
+            Text="humidity:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
